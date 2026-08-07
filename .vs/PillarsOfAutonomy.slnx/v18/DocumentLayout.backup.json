@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\JhsProg\\Dev\\GitHub\\JustinSteen73\\PillarsOfAutonomy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B464F1-5C0E-4C16-BDC8-78D07A469214}|Solution Items{A9B464F1-5C0E-4C16-BDC8-78D07A469214}|C:\\JhsProg\\Dev\\GitHub\\JustinSteen73\\PillarsOfAutonomy\\Index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B464F1-5C0E-4C16-BDC8-78D07A469214}|Solution Items{A9B464F1-5C0E-4C16-BDC8-78D07A469214}|solutionrelative:Index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 89,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.html",
+              "DocumentMoniker": "C:\\JhsProg\\Dev\\GitHub\\JustinSteen73\\PillarsOfAutonomy\\Index.html",
+              "RelativeDocumentMoniker": "Index.html",
+              "ToolTip": "C:\\JhsProg\\Dev\\GitHub\\JustinSteen73\\PillarsOfAutonomy\\Index.html",
+              "RelativeToolTip": "Index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-08-07T19:16:31.675Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
