@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>    
+    </style>
+    <script>
+        window.onload = function() {
+            const canvas = document.getElementById('vennDiagram');
+            const ctx = canvas.getContext('2d');
+
+            // Draw the first circle (AI)
+            ctx.beginPath();
+            ctx.arc(150, 200, 100, 0, Math.PI * 2, true);
+            ctx.fillStyle = 'rgba(255, 0, 0, 0.5)'; // Red with transparency
+            ctx.fill();
+            ctx.closePath();
+
+            // Draw the second circle (ML)
+            ctx.beginPath();
+            ctx.arc(250, 200, 100, 0, Math.PI * 2, true);
+            ctx.fillStyle = 'rgba(0, 255, 0, 0.5)'; // Green with transparency
+            ctx.fill();
+            ctx.closePath();
+
+            // Draw the third circle (Deep Learning)
+            ctx.beginPath();
+            ctx.arc(200, 300, 100, 0, Math.PI * 2, true);
+            ctx.fillStyle = 'rgba(0, 0, 255, 0.5)'; // Blue with transparency
+            ctx.fill();
+            ctx.closePath();
+
+            canvas.addEventListener('click', function(event) {
+                const bounds = canvas.getBoundingClientRect();
+                const x = (event.clientX - bounds.left) * canvas.width / bounds.width;
+                const y = (event.clientY - bounds.top) * canvas.height / bounds.height;
+                const dx = x - 150;
+                const dy = y - 200;
+
+                if (dx * dx + dy * dy <= 100 * 100) {
+                    window.alert('Hello AI');
+                }
+            });
+        };        
+    </script>
+</head>
+<body>
+    <canvas id="vennDiagram" width="400" height="400" style="border: 1px solid black;"></canvas>
+</body>
+</html>
